@@ -2,15 +2,15 @@ import random
 import matplotlib.pyplot as plt
 import numpy as np
 plt.style.use('_mpl-gallery')
-replicas = #"ultimos seis o siete números de tu matricula"
+replicas = 1234567#"ultimos seis o siete números de tu matricula"
 repetidos = 0
 iguales = []
 lista = []
 outputs = []
 for i in range(replicas):
-    char_length = 6
-    char_length2 = 6
-    char_length3 = 6
+    char_length = 4
+    char_length2 = 4
+    char_length3 = 4
     genoma1 = ["A", "C", "T", "G"]
     genoma2 = ["A", "C", "T", "G"]
     genoma3 = ["A", "C", "T", "G"]
@@ -28,7 +28,7 @@ for i in range(replicas):
     output_2= "".join(output2)
     output_3= "".join(output3)
     #print(i, output_1,';',output_2, ';', output_3 )
-    if output_1[0:3] == output_2[0:3] == output_3[0:3]:
+    if output_1[0:4] == output_2[0:4] == output_3[0:4]:
       repetidos += 1
       if repetidos >= 1:
         iguales.append(i)
