@@ -8,9 +8,9 @@ iguales = []
 lista = []
 outputs = []
 for i in range(replicas):
-    char_length = 10
-    char_length2 = 10
-    char_length3 = 10
+    char_length = 6
+    char_length2 = 6
+    char_length3 = 6
     genoma1 = ["A", "C", "T", "G"]
     genoma2 = ["A", "C", "T", "G"]
     genoma3 = ["A", "C", "T", "G"]
