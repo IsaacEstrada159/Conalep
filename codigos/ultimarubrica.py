@@ -2,7 +2,7 @@ import random
 import matplotlib.pyplot as plt
 import numpy as np
 plt.style.use('_mpl-gallery')
-replicas = 1234567#"ultimos seis o siete números de tu matricula"
+replicas = #"ultimos seis o siete números de tu matricula"
 repetidos = 0
 iguales = []
 lista = []
