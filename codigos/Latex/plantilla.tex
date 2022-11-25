@@ -1,0 +1,56 @@
+\documentclass{article}
+\setlength{\parskip}{5pt} % esp. entre parrafos
+\setlength{\parindent}{0pt} % esp. al inicio de un parrafo
+\usepackage{amsmath} % mates
+\usepackage[sort&compress,numbers]{natbib} % referencias
+\usepackage{url} % que las URLs se vean lindos
+\usepackage[top=25mm,left=20mm,right=20mm,bottom=25mm]{geometry} % margenes
+\usepackage{hyperref} % ligas de URLs
+\usepackage{graphicx} % poner figuras
+\usepackage[spanish]{babel} % otros idiomas
+\usepackage[utf8]{inputenc}
+\author{I E G} % author
+\title{Práctica 0} % titulo
+\date{\today}
+
+\begin{document} % inicia contenido
+
+\maketitle % cabecera
+
+\begin{abstract} % resumen
+
+\end{abstract}
+
+\section{Introducci\'{o}n}\label{intro} % seccion y etiqueta
+
+
+
+
+
+
+\begin{figure} % figura
+    \centering
+    \includegraphics[width=150mm]{output3.jpg} % archivo
+    \caption{resultados del programa}
+    \label{grafica}
+\end{figure}
+
+\section{Desarrollo}
+
+ 
+
+\begin{lstlisting}[language = python]
+
+   x = np.arange(0, 200)
+   
+   y = uniform(0, 1000, size = 200)
+\end{lstlisting}
+
+\section{Conclusiones}
+
+.
+
+\bibliography{simu}
+\bibliographystyle{plainnat}
+
+\end{document}
